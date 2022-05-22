@@ -8,7 +8,6 @@ import {
   Entity,
   JoinTable,
   ManyToMany,
-  ManyToOne,
   PrimaryGeneratedColumn,
 } from 'typeorm';
 
@@ -34,14 +33,6 @@ export class Product {
   @Column({ default: 0 })
   @Field(() => Int)
   like: number;
-
-  @Column()
-  @Field(() => String)
-  image: string;
-
-  @Column()
-  @Field(() => String)
-  thumbnailImage: string;
 
   @CreateDateColumn()
   @Field(() => String)

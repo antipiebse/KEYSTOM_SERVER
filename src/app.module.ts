@@ -16,12 +16,9 @@ import { ConfigModule } from '@nestjs/config';
 // import { AppController } from './app.controller';
 // import { AppService } from './app.service';
 import 'dotenv/config';
-import { ProductImageModule } from './apis/productImage/productImage.module';
-import { ReviewImageModule } from './apis/reviewImage/reviewImage.module';
 import { CommentModule } from './apis/comments/comment.module';
 import { CartProductModule } from './apis/cart/cartProduct.module';
 import { UserCoupon } from './apis/UserCoupon/entities/userCoupon.entity';
-import { Coupon } from './apis/coupon/entities/coupon.entity';
 import { CouponModule } from './apis/coupon/coupon.module';
 import { FileModule } from './apis/file/file.module';
 import { UsedProductImageModule } from './apis/usedProductImage/usedproductImage.module';
@@ -37,10 +34,8 @@ import { UsedProductModule } from './apis/usedProducts/usedProduct.module';
     FileModule,
     OrderModule,
     PaymentModule,
-    ProductImageModule,
     ProductModule,
     ReviewModule,
-    ReviewImageModule,
     SignUpModule,
     UsedProductImageModule,
     UsedProductModule,
