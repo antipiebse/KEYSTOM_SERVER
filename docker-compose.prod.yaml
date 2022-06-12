@@ -3,7 +3,7 @@ version: '3.7'
 services:
   my-backend:
     platform: linux/amd64
-    image: asia.gcr.io/team-f12-350503/team-f12-backend:0.0.3
+    image: asia.gcr.io/team-f12-350503/team-f12-backend:0.0.4
     build:
       context: .
       dockerfile: Dockerfile
