@@ -31,7 +31,8 @@ yarn install
 
 ### 프로젝트 실행
 ``` bash
-docker-compose 
+docker-compose -f docker-compose.${개발환경}.yaml build
+docker-compose -f docker-compose.${개발환경}.yaml up
 ```
 
 <br/>
