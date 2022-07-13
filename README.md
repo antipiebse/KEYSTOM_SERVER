@@ -17,6 +17,25 @@
 
 <br/>
 
+## 프로젝트 설치 방법 & 실행 방법
+### 프로젝트 설치
+``` bash
+git clone https://github.com/jonghyun-sun/f6b2-team6-server.git
+```
+<br>
+
+``` bash
+yarn install
+```
+<Br/>
+
+### 프로젝트 실행
+``` bash
+docker-compose 
+```
+
+<br/>
+
 ## 기술스택
 <div style="width:70% text-align:center"><img src="https://user-images.githubusercontent.com/79756706/173012667-97a4d79c-02b5-4a23-a561-8fcee3a6d2d6.png"></div>
 
@@ -35,6 +54,8 @@
 ## API Docs
 ![](https://velog.velcdn.com/images/antipiebse/post/1c6fb37b-d6c1-4916-929f-b89209c6daf3/image.png)
 
+## Database Schema
+![스크린샷 2022-06-05 오후 11 18 18](https://user-images.githubusercontent.com/79756706/178704493-5f014bfd-62fe-44ff-b6d7-20699ac98f31.png)
 
 
 ## API
@@ -47,14 +68,7 @@
 |Fetch|Query{API name}{request col}|조회 성공 or 실패메시지|
 |login/logout|Query{API name}{request col}|성공 or 실패메시지|
 
-<br/>
 
-## 프로젝트 설치 방법 & 실행 방법
-``` bash
-git clone https://github.com/jonghyun-sun/f6b2-team6-server.git
-yarn install
-```
-<br/>
 
 ## 폴더 구조
 ```
